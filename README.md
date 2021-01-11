@@ -19,12 +19,11 @@ Para el servidor, se propone utilizar una arquitectura basada en contendores que
 
 Para alojar dichos servicios, se hará uso de servicios en la nube a fin de mantener el proyecto lo más sencillo posible.
 
-## Instalación
-Los comandos para clonar el repositorio y crear un entorno de desarrollo son los siguientes:
+## Instalación para desarrolladores
+En caso de querer colaborar en este proyecto, los pasos para crear un entorno de desarrollo son los siguientes:
 1. Clonar el repositorio `$ git clone https://github.com/miikel23/GrupoDAIC11-EOLOS.git eolos`
 2. Instalar dependencias `$ npm install`
-
-En caso de querer ejecutar el proyecto `npm run start`
+3. Para ejecutar el proyecto `npm run start`
 
 ## Uso 
 Para hacer uso del proyecto es necesario:
