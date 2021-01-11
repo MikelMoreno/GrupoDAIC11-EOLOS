@@ -27,6 +27,10 @@ Los comandos para clonar el repositorio y crear un entorno de desarrollo son los
 En caso de querer ejecutar el proyecto `npm run start`
 
 ## Uso 
+Para hacer uso del proyecto es necesario:
+1. Acceder desde el navegador a la direccion ip `http://93.189.90.190` e introducir los datos de usuario.
+2. Una vez dentro del sistema se puede elegir que dispositivo se desea seleccionar y acceder a los datos en tiempo real.
+3. Para cerrar sesion hacer click sobre el boton `logout`
 
 ## Integrantes del grupo
 - Mikel Moreno Moreno
