@@ -1,0 +1,8 @@
+[Unit]
+Description=Start Sensor Reader Script
+
+[Service]
+ExecStart=/home/pi/proyecto/startup.sh
+
+[Install]
+WantedBy=multi-user.target
