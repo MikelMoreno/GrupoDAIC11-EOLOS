@@ -20,10 +20,11 @@ Para el servidor, se propone utilizar una arquitectura basada en contendores que
 Para alojar dichos servicios, se hará uso de servicios en la nube a fin de mantener el proyecto lo más sencillo posible.
 
 ## Instalación para desarrolladores
-En caso de querer colaborar en este proyecto, los pasos para crear un entorno de desarrollo son los siguientes:
-1. Clonar el repositorio `$ git clone https://github.com/miikel23/GrupoDAIC11-EOLOS.git eolos`
-2. Instalar dependencias `$ npm install`
-3. Para ejecutar el proyecto `npm run start`
+En caso de querer colaborar en este proyecto, el primer paso a seguir es el de clonar el repositorio:
+
+`$ git clone https://github.com/miikel23/GrupoDAIC11-EOLOS.git eolos`
+
+Cuando ya esté clonado, podremos proceder a realizar la instalación para la nube así como para la Raspberry Pi. Las instrucciones de instalación para ambos casos están definidas en sus apartados correspondientes de la wiki de este repositorio. 
 
 ## Uso 
 Para hacer uso del proyecto es necesario:
