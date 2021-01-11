@@ -1,0 +1,47 @@
+version: "2"
+services:
+  node:
+    image: "node:15.5.1"
+    depends_on: 
+      - mongo
+    user: "node"
+    container_name: webapp
+    working_dir: /home/node/app
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - NODE_ENV=production
+      - MONGO_USERNAME=$MONGO_USERNAME
+      - MONGO_PASSWORD=$MONGO_PASSWORD
+      - MONGO_HOSTNAME=db
+      - MONGO_PORT=$MONGO_PORT
+      - MONGO_DB=$MONGO_DB
+    volumes:
+      - ./backend:/home/node/app
+    ports:
+      - "80:3000"
+    command: bash -c "npm install && npm start"
+    # command: ./wait-for.sh db:27017 -- bash -c "npm install && npm start"
+    networks:
+      - app-network
+
+  mongo:
+    image: "mongo:4.4.1-bionic"
+    container_name: db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=eolos
+      - MONGO_INITDB_ROOT_PASSWORD=eolos
+      - MONGO_INITDB_DATABASE=eolos
+    volumes:
+      - dbdata:/data/db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  dbdata:
