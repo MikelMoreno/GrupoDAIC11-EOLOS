@@ -1,10 +1,6 @@
-# DAIC - Grupo 11 
+# EOLOS - Grupo 11
 
-## Integrantes del grupo
-- Mikel Moreno Moreno
-- Pablo Villacorta Benito
-
-## Solución
+## Descripción
 El proyecto EOLOS permite monitorizar la calidad y, por consecuencia, la ventilación de espacios cerrados, registrando, a su vez, diferentes características (estáticas y dinámicas) del entorno, de manera que pueda ofrecer datos que permitan realizar un análisis exhaustivo que pueda llevar a conclusiones clave en la lucha contra la covid-19. 
 
 En el prototipo se plantea lo siguiente:
@@ -25,3 +21,7 @@ Para alojar dichos servicios, se hará uso de servicios en la nube a fin de mant
 
 ## Instalación
 Los comandos para inicializar el sistema son los siguientes:
+
+## Integrantes del grupo
+- Mikel Moreno Moreno
+- Pablo Villacorta Benito
