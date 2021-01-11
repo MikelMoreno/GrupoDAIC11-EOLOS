@@ -1,5 +1,8 @@
 # EOLOS - Grupo 11
 
+## Enlace al vídeo explicativo
+[https://drive.google.com/file/d/18aVqxEwvkes52FziAxn_W7B8Zn6Scp61/view?usp=sharing](https://drive.google.com/file/d/18aVqxEwvkes52FziAxn_W7B8Zn6Scp61/view?usp=sharing)
+
 ## Descripción
 El proyecto EOLOS permite monitorizar la calidad y, por consecuencia, la ventilación de espacios cerrados, registrando, a su vez, diferentes características (estáticas y dinámicas) del entorno, de manera que pueda ofrecer datos que permitan realizar un análisis exhaustivo que pueda llevar a conclusiones clave en la lucha contra la covid-19. 
 
