@@ -26,6 +26,8 @@ Los comandos para clonar el repositorio y crear un entorno de desarrollo son los
 
 En caso de querer ejecutar el proyecto `npm run start`
 
+## Uso 
+
 ## Integrantes del grupo
 - Mikel Moreno Moreno
 - Pablo Villacorta Benito
